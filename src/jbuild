@@ -1,0 +1,9 @@
+(executable (
+  (name main)
+))
+
+(ocamllex (lexer))
+
+(menhir
+  ((modules (parser)))
+)
